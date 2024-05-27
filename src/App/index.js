@@ -14,8 +14,9 @@ import { TodoHeader } from '../TodoHeader';
 import { ChangeAlert } from '../ChangeAlert';
 
 function App(){
-	const {loading, error, searchedTodos, completeTodo, deleteTodo, openModal, completedTodos, totalTodos, searchValue, setSearchValue, setOpenModal, addTodo, sincronizeTodos} = useTodos()
-
+	const {states, stateUpdaters} = useTodos()
+    const {loading, error, totalTodos, completedTodos, searchValue, searchedTodos, openModal } = states
+    const {setSearchValue, setOpenModal, completeTodo, deleteTodo, addTodo, sincronizeTodos} = stateUpdaters
     return (
 		<>
             <TodoHeader loading={loading}>
@@ -32,7 +33,7 @@ function App(){
                 onError={() => <TodosError />}
                 onLoading={() => <TodosLoading />}
                 onEmptyTodos={() => <EmptyTodos />}
-                onEmptySearchResults={(searchText) => `${searchText} no fue encontrado en tu lista de TODO's.</p>`}
+                onEmptySearchResults={(searchText) => `${searchText} no fue encontrado en tu lista de TODO's.`}
                 // render={todo => (
                 //     <TodoItem 
                 //         key={todo.text} 
