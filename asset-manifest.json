@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/HectorLeonelPro/TodoListApp%20-%20estado-2/static/css/main.97ba7a41.css",
+    "main.js": "/HectorLeonelPro/TodoListApp%20-%20estado-2/static/js/main.cb0dd68f.js",
+    "index.html": "/HectorLeonelPro/TodoListApp%20-%20estado-2/index.html",
+    "static/media/delete.svg": "/HectorLeonelPro/TodoListApp%20-%20estado-2/static/media/delete.253668d653616a4e68d22c69ee5da594.svg",
+    "static/media/check.svg": "/HectorLeonelPro/TodoListApp%20-%20estado-2/static/media/check.38f596e64d38d54463f988385b633c05.svg",
+    "main.97ba7a41.css.map": "/HectorLeonelPro/TodoListApp%20-%20estado-2/static/css/main.97ba7a41.css.map",
+    "main.cb0dd68f.js.map": "/HectorLeonelPro/TodoListApp%20-%20estado-2/static/js/main.cb0dd68f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97ba7a41.css",
+    "static/js/main.cb0dd68f.js"
+  ]
+}
